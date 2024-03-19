@@ -1,5 +1,11 @@
 #Data
-/data
+/data/
+
+# Model weights
+*.h5
+*.hdf5
+*.weights
+*.ckpt
 
 # Junk Files
 .DS_Store
