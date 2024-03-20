@@ -1,3 +1,7 @@
+# Pediatric Pneumonia Identification Using Deep Learning
+Author: Adam Pell
+
+
 # Overview
 This project will use neural networks to analyze and predict the presence of pneumonia in pediatric chest X-rays.
 
