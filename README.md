@@ -38,7 +38,7 @@ This analysis uses various deep learning techniques. Namely, it focuses on diffe
 **Image: Pneumonia X-ray Pixel Intensity**
 
 
-<img src="images/Pneumonia_intensity" width="400" height="400">
+<img src="images/Pneumonia_intensity.png" width="400" height="400">
 
 
 # Results
