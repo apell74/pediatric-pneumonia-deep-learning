@@ -24,7 +24,7 @@ There are no initial features to begin with here, as the model will be learning 
 **Image: Chest X-ray Showing Pneumonia**
 
 
-<img src="images/Pneumonia_image.png" width="400" height="400">
+<img src="images/Pneumonia_image_new.png" width="400" height="400">
 
 
 ## Limitations
@@ -38,7 +38,7 @@ This analysis uses various deep learning techniques. Namely, it focuses on diffe
 **Image: Pneumonia X-ray Pixel Intensity**
 
 
-<img src="images/Pneumonia_intensity.png" width="400" height="400">
+<img src="images/Pneumonia_intensity.png" width="600" height="400">
 
 
 # Results
