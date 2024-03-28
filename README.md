@@ -21,7 +21,7 @@ Our target for this project will be optimizing the accuracy of our neural networ
 
 There are no initial features to begin with here, as the model will be learning to read important parts of the images during training.
 
-**Image: Chest X-ray Showing Pneumonia**
+**Image: Chest X-ray Showing Normal Lung**
 
 
 <img src="images/Normal_image_new.png" width="400" height="400">
