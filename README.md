@@ -21,6 +21,12 @@ Our target for this project will be optimizing the accuracy of our neural networ
 
 There are no initial features to begin with here, as the model will be learning to read important parts of the images during training.
 
+**Image: Chest X-ray Showing Pneumonia**
+
+
+<img src="images/Pneumonia_image.png" width="400" height="400">
+
+
 ## Limitations
 As is often the case, our dataset is fairly small and imbalanced. While the images are high-quality, there are not too many of them, especially when it comes to "Normal" images of healthy lungs.
 
@@ -28,6 +34,12 @@ This could affect our model's ability to generalize to unseen data. For medical 
 
 # Methods
 This analysis uses various deep learning techniques. Namely, it focuses on different variations of neural networks. We employ multi-layer perceptrons, convolutional neural networks, and transfer learning using MobileNet-v2. Each model is tuned to improve performance on target metrics.
+
+**Image: Pneumonia X-ray Pixel Intensity**
+
+
+<img src="images/Pneumonia_intensity" width="400" height="400">
+
 
 # Results
 Our final model features transfer learning using a large pre-trained model. The base layers of this model were frozen and not trainable, but multiple Dense layers and a pooling layer were added to help tune the model to our particular dataset. As before, the model was optimized for accuracy. 
@@ -41,7 +53,19 @@ The table below shows how the models improved over iterations:
 | CNN                | 95%            | 93.7%               | 83%           | 79%         | 5 min.      |
 | Tuned MobileNet-v2 | 92.2%          | 90.6%               | 89%           | 88%         | 4 min.      |
 
-The final product saw large improvements in performance almost all the way across the board. We saw a solid in our accuracy score, as well as improved recall for the negative case, had been a problem to optimize for previously.
+The final product saw large improvements in performance almost all the way across the board. We saw a solid in our accuracy score, as well as improved recall for the negative case, had been a problem to optimize for previously. We can visualize the final model's results below:
+
+**Image: Confusion Matrix of Final Model**
+
+
+<img src="images/Conf_matrix.png" width="400" height="400">
+
+
+**Image: Final Model Loss Graph Over Epochs**
+
+
+<img src="images/Loss_graph.png" width="400" height="400">
+
 
 # Conclusions
 Our iterative modeling process has yielded a model with solid performance gains and generalization capabilities. Using transfer learning was the most effective tool, achieving 89% accuracy and a huge bump in recall for the negative class. As the our final confusion matrix confirms, we are really starting to move the needle on false positives, which has proved problematic throughout. We have maintained excellent recall on the positive case, meaning our false negatives remain quite low overall.
