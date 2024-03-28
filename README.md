@@ -98,3 +98,13 @@ While our model is performing well, many improvements can still be made. Namely,
 - Phone: 917-434-6615
 - GitHub: apell7594
 - LinkedIn: Adam Pell
+
+## Repository Structure
+.
+├── images
+├── data
+├── .gitignore
+├── index.ipynb
+├── best_model.h5
+├── Pediatric Pneumonia Identification Using Deep Learning.pdf
+└── README.MD
