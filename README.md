@@ -24,6 +24,12 @@ There are no initial features to begin with here, as the model will be learning 
 **Image: Chest X-ray Showing Pneumonia**
 
 
+<img src="images/Normal_image_new.png" width="400" height="400">
+
+
+**Image: Chest X-ray Showing Pneumonia**
+
+
 <img src="images/Pneumonia_image_new.png" width="400" height="400">
 
 
