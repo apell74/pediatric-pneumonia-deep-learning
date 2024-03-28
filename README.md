@@ -100,7 +100,7 @@ While our model is performing well, many improvements can still be made. Namely,
 - LinkedIn: Adam Pell
 
 ## Repository Structure
-.
+```
 ├── images
 ├── data
 ├── .gitignore
@@ -108,3 +108,4 @@ While our model is performing well, many improvements can still be made. Namely,
 ├── best_model.h5
 ├── Pediatric Pneumonia Identification Using Deep Learning.pdf
 └── README.MD
+```
