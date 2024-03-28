@@ -64,7 +64,7 @@ The final product saw large improvements in performance almost all the way acros
 **Image: Final Model Loss Graph Over Epochs**
 
 
-<img src="images/Loss_graph.png" width="400" height="400">
+<img src="images/Loss_graph.png" width="600" height="400">
 
 
 # Conclusions
