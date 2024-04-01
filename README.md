@@ -93,6 +93,9 @@ While our model is performing well, many improvements can still be made. Namely,
 - Complex CNNs that require more compute
 - Image augmentation during training
 
+## Link to Data
+Kaggle Pneumonia Dataset[https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia]
+
 ## Contact Information
 - Email: apell7591@gmail.com
 - Phone: 917-434-6615
